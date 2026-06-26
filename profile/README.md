@@ -26,7 +26,7 @@ An open engineering program demonstrating **architecture-led, AI-assisted develo
 |------------|------|--------|
 | [migration-hub](https://github.com/anchor-migration/migration-hub) | Program docs & architecture | Active |
 | [db-metadata](https://github.com/anchor-migration/db-metadata) | Live DB → schema SSOT (SQLite) | Alpha |
-| code-ast-ssot | Java source → code AST SSOT | Planned |
+| [java-ast-ssot](https://github.com/anchor-migration/java-ast-ssot) | Java source → Java AST SSOT | Alpha |
 | rewrite-recipes | OpenRewrite rule catalog | Planned |
 | parity-verify | Old vs new parity verification | Planned |
 | pattern-catalog | Migration patterns (EJB → Spring, …) | Planned |
