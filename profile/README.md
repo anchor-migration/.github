@@ -26,11 +26,24 @@ An open engineering program demonstrating **architecture-led, AI-assisted develo
 |------------|------|--------|
 | [migration-hub](https://github.com/anchor-migration/migration-hub) | Program docs & architecture | Active |
 | [db-metadata](https://github.com/anchor-migration/db-metadata) | Live DB → schema SSOT (SQLite) | Alpha |
-| [java-ast-ssot](https://github.com/anchor-migration/java-ast-ssot) | Java source → Java AST SSOT | Alpha |
-| rewrite-recipes | OpenRewrite rule catalog | Planned |
-| parity-verify | Old vs new parity verification | Planned |
-| pattern-catalog | Migration patterns (EJB → Spring, …) | Planned |
+| [java-ast-ssot](https://github.com/anchor-migration/java-ast-ssot) | Java source → AST SSOT + `classify-lists` | Alpha |
+| [anchor-explorer](https://github.com/anchor-migration/anchor-explorer) | Read-only crosswalk UI | Alpha |
+| [rewrite-recipes](https://github.com/anchor-migration/rewrite-recipes) | OpenRewrite catalog (stack + L1/L2/L3) | Alpha |
+| [parity-verify](https://github.com/anchor-migration/parity-verify) | Old vs new parity verification | Planned |
+| [pattern-catalog](https://github.com/anchor-migration/pattern-catalog) | Migration patterns (EJB → Spring, …) | Planned |
 
 Schema + AST as ground truth · OpenRewrite for mechanical migration · AST + AI for bounded parity exploration
 
-[Architecture · Roadmap · SSOT contracts →](https://github.com/anchor-migration/migration-hub)
+---
+
+### Program progress (2026-06)
+
+| Phase | Status |
+|-------|--------|
+| Schema SSOT + Duke's Bank demo | ✅ Alpha |
+| Java AST SSOT + crosswalk + Explorer E2E | ✅ Alpha |
+| OpenRewrite stack migration (Session/CMP) | ✅ Duke's Bank fixtures |
+| Language modernization ADR-008 (L1/L2/L3) | ✅ v1 spike complete |
+| Parity verification | 📋 Next |
+
+[Architecture · Roadmap · Start here →](https://github.com/anchor-migration/migration-hub)
