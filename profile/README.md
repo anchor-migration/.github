@@ -30,6 +30,7 @@ An open engineering program demonstrating **architecture-led, AI-assisted develo
 | [anchor-explorer](https://github.com/anchor-migration/anchor-explorer) | Read-only crosswalk UI | Alpha |
 | [rewrite-recipes](https://github.com/anchor-migration/rewrite-recipes) | OpenRewrite catalog (stack + L1/L2/L3) | Alpha |
 | [parity-verify](https://github.com/anchor-migration/parity-verify) | Before/after AST structural parity (JSON) | Alpha |
+| [anchor-stubborn](https://github.com/anchor-migration/anchor-stubborn) | SCIP → LLM context stubs (horizontal) | Alpha |
 | [pattern-catalog](https://github.com/anchor-migration/pattern-catalog) | Migration patterns (EJB → Spring, …) | Planned |
 
 Schema + AST as ground truth · OpenRewrite for mechanical migration · AST + AI for bounded parity exploration
@@ -44,6 +45,7 @@ Schema + AST as ground truth · OpenRewrite for mechanical migration · AST + AI
 | Java AST SSOT + crosswalk + Explorer E2E | ✅ Alpha |
 | OpenRewrite stack migration (Session/CMP) | ✅ Duke's Bank fixtures |
 | Language modernization ADR-008 (L1/L2/L3) | ✅ v1 spike complete |
+| anchor-stubborn v0.3 (LLM context, metrics KPI) | ✅ Alpha |
 | Parity verification | 📋 Next |
 
 [Architecture · Roadmap · Start here →](https://github.com/anchor-migration/migration-hub)
