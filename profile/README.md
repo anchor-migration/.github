@@ -29,7 +29,7 @@ An open engineering program demonstrating **architecture-led, AI-assisted develo
 | [java-ast-ssot](https://github.com/anchor-migration/java-ast-ssot) | Java source → AST SSOT + profiles (`javaee-ejb2-jboss`, `jpa`, `mybatis`) + `classify-lists` | Alpha |
 | [anchor-explorer](https://github.com/anchor-migration/anchor-explorer) | Read-only crosswalk UI | Alpha |
 | [rewrite-recipes](https://github.com/anchor-migration/rewrite-recipes) | OpenRewrite catalog (stack + L1/L2/L3) | Alpha |
-| [parity-verify](https://github.com/anchor-migration/parity-verify) | Before/after AST structural parity (JSON) | Alpha |
+| [parity-verify](https://github.com/anchor-migration/parity-verify) | Before/after AST diff + behavioral matrix + HTML | Beta |
 | [anchor-stubborn](https://github.com/anchor-migration/anchor-stubborn) | SCIP → LLM context stubs (horizontal) | Alpha |
 | [pattern-catalog](https://github.com/anchor-migration/pattern-catalog) | Migration patterns (EJB → Spring, …) | Planned |
 
@@ -46,6 +46,6 @@ Schema + AST as ground truth · OpenRewrite for mechanical migration · AST + AI
 | OpenRewrite stack migration (Session/CMP) | ✅ Duke's Bank fixtures |
 | Language modernization ADR-008 (L1/L2/L3) | ✅ v1 spike complete |
 | anchor-stubborn v0.3 (LLM context, metrics KPI) | ✅ Alpha |
-| Parity verification | 📋 Next |
+| Parity verification (`parity-verify` v0.2 JSON + HTML + behavioral matrix) | ✅ Beta |
 
 [Architecture · Roadmap · Start here →](https://github.com/anchor-migration/migration-hub)
