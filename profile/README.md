@@ -29,7 +29,7 @@ An open engineering program demonstrating **architecture-led, AI-assisted develo
 | [java-ast-ssot](https://github.com/anchor-migration/java-ast-ssot) | Java source → AST SSOT + profiles (`javaee-ejb2-jboss`, `jpa`, `mybatis`) + `classify-lists` | Alpha |
 | [anchor-explorer](https://github.com/anchor-migration/anchor-explorer) | Read-only crosswalk UI | Alpha |
 | [rewrite-recipes](https://github.com/anchor-migration/rewrite-recipes) | OpenRewrite catalog (stack + L1/L2/L3) | Alpha |
-| [parity-verify](https://github.com/anchor-migration/parity-verify) | Old vs new parity verification | Planned |
+| [parity-verify](https://github.com/anchor-migration/parity-verify) | Before/after AST structural parity (JSON) | Alpha |
 | [pattern-catalog](https://github.com/anchor-migration/pattern-catalog) | Migration patterns (EJB → Spring, …) | Planned |
 
 Schema + AST as ground truth · OpenRewrite for mechanical migration · AST + AI for bounded parity exploration
