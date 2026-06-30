@@ -30,6 +30,7 @@ An open engineering program demonstrating **architecture-led, AI-assisted develo
 | [anchor-explorer](https://github.com/anchor-migration/anchor-explorer) | Read-only crosswalk UI | Alpha |
 | [rewrite-recipes](https://github.com/anchor-migration/rewrite-recipes) | OpenRewrite catalog (stack + L1/L2/L3) | Alpha |
 | [parity-verify](https://github.com/anchor-migration/parity-verify) | Before/after AST diff + behavioral matrix + HTML | Beta |
+| [pattern-catalog](https://github.com/anchor-migration/pattern-catalog) | Migration patterns + parity checklists | Alpha |
 | [anchor-stubborn](https://github.com/anchor-migration/anchor-stubborn) | SCIP → LLM context stubs (horizontal) | Alpha |
 | [pattern-catalog](https://github.com/anchor-migration/pattern-catalog) | Migration patterns (EJB → Spring, …) | Planned |
 
