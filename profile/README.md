@@ -31,7 +31,7 @@ An open engineering program demonstrating **architecture-led, AI-assisted develo
 | [rewrite-recipes](https://github.com/anchor-migration/rewrite-recipes) | OpenRewrite catalog (stack + L1/L2/L3) | Alpha |
 | [parity-verify](https://github.com/anchor-migration/parity-verify) | Before/after AST diff + behavioral matrix + HTML | Beta |
 | [pattern-catalog](https://github.com/anchor-migration/pattern-catalog) | Migration patterns + parity checklists | Alpha |
-| [anchor-stubborn](https://github.com/anchor-migration/anchor-stubborn) | SCIP → LLM context (`java-stub` / `anchor-dsl`); [ADR-010](https://github.com/anchor-migration/migration-hub/blob/main/docs/ADR-010-anchor-stubborn-integration.md) | **Beta** (`0.9.0b1`) |
+| [anchor-stubborn](https://github.com/stubborn-ai/stubborn) | SCIP → LLM context (`java-stub` / `anchor-dsl`); [ADR-010](https://github.com/anchor-migration/migration-hub/blob/main/docs/ADR-010-anchor-stubborn-integration.md) | **Beta** (`0.9.0b1`) |
 | [demo-dukesbank](https://github.com/anchor-migration/demo-dukesbank) | Duke's Bank MySQL Docker bridge + E2E scripts | Active |
 
 Schema + AST as ground truth · OpenRewrite for mechanical migration · AST + AI for bounded parity exploration · **anchor-stubborn** for optional token-bounded LLM context (horizontal, not in SSOT pipeline)
