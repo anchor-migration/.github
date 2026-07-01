@@ -31,14 +31,14 @@ An open engineering program demonstrating **architecture-led, AI-assisted develo
 | [rewrite-recipes](https://github.com/anchor-migration/rewrite-recipes) | OpenRewrite catalog (stack + L1/L2/L3) | Alpha |
 | [parity-verify](https://github.com/anchor-migration/parity-verify) | Before/after AST diff + behavioral matrix + HTML | Beta |
 | [pattern-catalog](https://github.com/anchor-migration/pattern-catalog) | Migration patterns + parity checklists | Alpha |
-| [anchor-stubborn](https://github.com/anchor-migration/anchor-stubborn) | SCIP → LLM context stubs (horizontal) | Alpha |
+| [anchor-stubborn](https://github.com/anchor-migration/anchor-stubborn) | SCIP → LLM context (`java-stub` / `anchor-dsl`); [ADR-010](https://github.com/anchor-migration/migration-hub/blob/main/docs/ADR-010-anchor-stubborn-integration.md) | **Beta** (`0.9.0b1`) |
 | [demo-dukesbank](https://github.com/anchor-migration/demo-dukesbank) | Duke's Bank MySQL Docker bridge + E2E scripts | Active |
 
-Schema + AST as ground truth · OpenRewrite for mechanical migration · AST + AI for bounded parity exploration
+Schema + AST as ground truth · OpenRewrite for mechanical migration · AST + AI for bounded parity exploration · **anchor-stubborn** for optional token-bounded LLM context (horizontal, not in SSOT pipeline)
 
 ---
 
-### Program progress (2026-06)
+### Program progress (2026-07)
 
 | Phase | Status |
 |-------|--------|
@@ -47,7 +47,7 @@ Schema + AST as ground truth · OpenRewrite for mechanical migration · AST + AI
 | OpenRewrite stack migration (Session/CMP) | ✅ Duke's Bank fixtures + **v0.4** (4 entities) |
 | Duke's Bank multi-entity JPA E2E + parity | ✅ `run-e2e-jpa-parity.ps1` |
 | Language modernization ADR-008 (L1/L2/L3) | ✅ v1 spike complete |
-| anchor-stubborn v0.3 (LLM context, metrics KPI) | ✅ Alpha |
+| **anchor-stubborn** Java-first Beta (`0.9.0b1`) — MCP, weave switches, Duke's Bank Step 7 | ✅ **Beta** |
 | Parity verification (`parity-verify` v0.2 JSON + HTML + behavioral matrix) | ✅ Beta |
 
 [Architecture · Roadmap · Start here →](https://github.com/anchor-migration/migration-hub)
